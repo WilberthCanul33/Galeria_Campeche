@@ -1,0 +1,22 @@
+.se {
+    background-color: wheat;
+}
+
+.cam {
+    text-align: center;
+    width: 100%;
+}
+
+.cam h2 {
+    text-align: center;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .cam img {
+        width: 90%;
+    }
+    .cam h2 {
+        font-size: 1em;
+    }
+}
