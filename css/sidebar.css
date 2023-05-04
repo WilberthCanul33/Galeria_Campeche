@@ -20,9 +20,35 @@
     color: black;
     text-decoration: none;
     transition: all 0.3s;
+    cursor: pointer;
 }
 
 #sidebar ul li a:hover, #sidebar ul li a.active {
+    color: var(--color-primary);
+    border-left: 3px solid var(--color-primary);
+}
+
+#sidebar ul li a.active-uno {
+    color: var(--color-primary);
+    border-left: 3px solid var(--color-primary);
+}
+
+#sidebar ul li a.active-dos {
+    color: var(--color-primary);
+    border-left: 3px solid var(--color-primary);
+}
+
+#sidebar ul li a.active-tres {
+    color: var(--color-primary);
+    border-left: 3px solid var(--color-primary);
+}
+
+#sidebar ul li a.active-cuatro {
+    color: var(--color-primary);
+    border-left: 3px solid var(--color-primary);
+}
+
+#sidebar ul li a.active-cinco {
     color: var(--color-primary);
     border-left: 3px solid var(--color-primary);
 }
