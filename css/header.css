@@ -36,10 +36,6 @@ header ul li a {
     transition: all 0.3s;
 }
 
-header ul li a:hover, header ul li a:active {
-    color: white;
-    border-bottom: 2px solid white;
-}
 
 @media only screen and (min-width: 1200px) {
     header h1 {
